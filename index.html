@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Generador de Curriculum</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h2>Generador de Curriculum</h2>
+
+    <div class="controls">
+
+        <input type="text" id="nameInput" placeholder="Nombre completo">
+
+        <input type="text" id="jobInput" placeholder="Profesión">
+
+        <input type="text" id="phoneInput" placeholder="Teléfono">
+
+        <input type="email" id="emailInput" placeholder="Correo">
+
+        <textarea id="profileInput" placeholder="Perfil personal"></textarea>
+
+        <textarea id="educationInput" placeholder="Educación"></textarea>
+
+        <textarea id="skillsInput" placeholder="Habilidades"></textarea>
+
+        <button id="generateBtn">Descargar PDF</button>
+
+    </div>
+
+</div>
+
+<!-- Librería PDF -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<script src="function.js"></script>
+
+</body>
+</html>
